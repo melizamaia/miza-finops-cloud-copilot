@@ -115,7 +115,7 @@ Importante para controle e governança da assinatura.
 
 ✔ Validar e Criar
 
-![img-016](docs/img/img-16.png.png)
+![img-016](docs/img/img-016.png.png)
 
 ---
 
