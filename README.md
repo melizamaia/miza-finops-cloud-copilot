@@ -330,6 +330,8 @@ Exemplos:
 - Não pressione ENTER no meio da frase → isso pode quebrar o JSON da ação.  
 - Escreva prompts completos em uma única linha, depois envie.
 
+---
+
 🧰 18. Tecnologias Utilizadas
 
 O projeto MIZA – FinOps Cloud Copilot utiliza uma combinação de serviços e ferramentas da plataforma Azure para criar um agente inteligente com capacidade de automação via Logic Apps.
@@ -339,13 +341,9 @@ O projeto MIZA – FinOps Cloud Copilot utiliza uma combinação de serviços e 
 Plataforma central onde o agente foi criado, configurado e testado.
 Permite:
 
-Criar agentes com modelos de IA
-
-Definir instruções internas
-
-Adicionar actions (ferramentas externas)
-
-Testar a solução no Playground
+- Criar agentes com modelos de IA  
+- Definir instruções internas  
+- Adicionar actions  
 
 🤖 Modelos de Linguagem (GPT-4 Mini)
 
@@ -404,6 +402,8 @@ Ferramentas de teste
 Suporte a JSON schemas
 
 Ambientes pré-carregados para agentes
+
+---
 
 📖 19. Referências da Documentação Oficial do Azure
 
