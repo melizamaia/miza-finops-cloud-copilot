@@ -23,7 +23,7 @@ Abra o menu sanduíche (≡) e procure Resource Groups.
 
 ![img-002](docs/img/img-002.png)
 
-Clique em Create para criar um novo grupo.
+Clique em Create (criar) para um novo grupo.
 
 ➕ Criar Grupo de Recursos
 
@@ -57,7 +57,7 @@ Verifique se tudo foi criado corretamente:
 
 🛒 4. Criando o Serviço do Azure AI Foundry
 
-No grupo de recursos, clique em Create e depois em Marketplace.
+No grupo de recursos, clique em Create (criar) e depois em Marketplace.
 
 ![img-008](docs/img/img-008.png)
 
@@ -198,7 +198,7 @@ Lembrando que o ambiente já vem com bibliotecas pré-configuradas:
 
 📘 14. Criação do Agente no Azure AI Foundry
 
-Para criar um novo agente, clique em **Create Agent**:
+Para criar um novo agente, clique em **Create Agent** (Criar agente):
 
 ![img-028](docs/img/img-028.png)
 
