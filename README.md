@@ -343,7 +343,7 @@ O agente deve:
 - Retornar algo como:  
   **“Pronto! O alerta foi enviado.”**
 
-Exemplos:
+Exemplo:
 
 ![img-041](docs/img/img-041.png)
 
