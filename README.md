@@ -198,7 +198,7 @@ Lembrando que o ambiente já vem com bibliotecas pré-configuradas:
 
 📘 14. Criação do Agente no Azure AI Foundry
 
-Para criar um novo agente, clique em **Create Agent** (Criar agente):
+Para criar um novo agente, clique em **Create Agent** (+ novo agente):
 
 ![img-028](docs/img/img-028.png)
 
