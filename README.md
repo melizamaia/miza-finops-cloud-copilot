@@ -441,11 +441,11 @@ https://learn.microsoft.com/azure/ai-foundry/
 
 🤖 Criar e Configurar Agentes (AI Agents Service)
 
-https://learn.microsoft.com/azure/ai-foundry/concepts/agents
+https://learn.microsoft.com/en-us/azure/ai-foundry/agents/quickstart?view=foundry-classic&pivots=ai-foundry-portal
 
 🔌 Actions e Integração com Logic Apps
 
-https://learn.microsoft.com/azure/ai-foundry/how-to/agents-add-actions
+https://learn.microsoft.com/en-us/azure/logic-apps/add-agent-action-create-run-workflow
 
 https://learn.microsoft.com/azure/logic-apps/logic-apps-overview
 
@@ -455,7 +455,7 @@ https://learn.microsoft.com/azure/azure-resource-manager/management/overview
 
 ⚙️ Modelos: GPT, Phi, Mistral e Outros
 
-https://learn.microsoft.com/azure/ai-services/model-catalog/
+https://ai.azure.com/catalog
 
 🔐 Governança, Identidade e Controle de Acesso (IAM)
 
