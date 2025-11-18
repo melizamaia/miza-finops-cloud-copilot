@@ -15,8 +15,6 @@ No menu inicial, selecione Recursos.
 
 ![img-001](docs/img/img-001.png)
 
-📌 Região recomendada: Canadá Oeste (melhor latência para o Brasil nas assinaturas AFG).
-
 ---
 
 🗂 2. Criando o Grupo de Recursos
@@ -30,6 +28,8 @@ Clique em Create para criar um novo grupo.
 ➕ Criar Grupo de Recursos
 
 ![img-003](docs/img/img-003.png)
+
+📌 Região recomendada: Canadá Oeste (melhor latência para o Brasil nas assinaturas AFG).
 
 🏷 Criar Tags (boa prática)
 
