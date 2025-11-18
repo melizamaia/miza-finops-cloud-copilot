@@ -12,7 +12,7 @@ Acesse:
 
 No menu inicial, selecione Recursos.
 
-![img-001](docs/img/img-001.png.png)
+![img-001](docs/img/img-001.png)
 
 📌 Região recomendada: Canadá Oeste (melhor latência para o Brasil nas assinaturas AFG).
 
@@ -22,24 +22,24 @@ No menu inicial, selecione Recursos.
 
 Abra o menu sanduíche (≡) e procure Resource Groups.
 
-![img-002](docs/img/img-002.png.png)
+![img-002](docs/img/img-002.png)
 
 Clique em Create para criar um novo grupo.
 
 ➕ Criar Grupo de Recursos
 
-![img-003](docs/img/img-003.png.png)
+![img-003](docs/img/img-003.png)
 
 🏷 Criar Tags (boa prática)
 
 Adicione tags para organização e governança.
 
-![img-004](docs/img/img-004.png.png)
+![img-004](docs/img/img-004.png)
 
 
 ✔ Revisar e Criar
 
-![img-005](docs/img/img-005.png.png)
+![img-005](docs/img/img-005.png)
 
 ---
 
@@ -47,12 +47,12 @@ Adicione tags para organização e governança.
 
 Entre no grupo criado:
 
-![img-006](docs/img/img-006.png.png)
+![img-006](docs/img/img-006.png)
 
 
 Verifique se tudo foi criado corretamente:
 
-![img-007](docs/img/img-007.png.png)
+![img-007](docs/img/img-007.png)
 
 ---
 
@@ -60,13 +60,13 @@ Verifique se tudo foi criado corretamente:
 
 No grupo de recursos, clique em Create e depois em Marketplace.
 
-![img-008](docs/img/img-008.png.png)
+![img-008](docs/img/img-008.png)
 
 No campo de busca, digite:
 
 ➡ "AI Foundry"
 
-![img-009](docs/img/img-009.png.png)
+![img-009](docs/img/img-009.png)
 
 ---
 
@@ -78,7 +78,7 @@ Se aparecer “Partner” → não está incluso no plano AFG.
 
 Use a tabela da documentação oficial para checar os acrônimos.
 
-![img-010](docs/img/img-010.png.png)
+![img-010](docs/img/img-010.png)
 
 🟣 AFG = Azure Frontier Girls
 Seu crédito da trilha é aplicado nesse provedor.
@@ -89,33 +89,33 @@ Seu crédito da trilha é aplicado nesse provedor.
 
 Tipo de Plano: Criar um recurso da Fábrica de IA no Azure
 
-![img-011](docs/img/img-011.png.png)
+![img-011](docs/img/img-011.png)
 
 Disponibilidade: marque All (os demais exigem configurações adicionais).
 
-![img-012](docs/img/img-012.png.png)
+![img-012](docs/img/img-012.png)
 
 Identidade atribuída automaticamente
 
-![img-013](docs/img/img-013.png.png)
+![img-013](docs/img/img-013.png)
 
 
 🔐 Encriptação
 
 Mantenha Padrão.
 
-![img-014](docs/img/img-014.png.png)
+![img-014](docs/img/img-014.png)
 
 🏷 Adicione a Tag AFG
 
 Importante para controle e governança da assinatura.
 
-![img-015](docs/img/img-015.png.png)
+![img-015](docs/img/img-015.png)
 
 
 ✔ Validar e Criar
 
-![img-016](docs/img/img-016.png.png)
+![img-016](docs/img/img-016.png)
 
 ---
 
@@ -123,7 +123,7 @@ Importante para controle e governança da assinatura.
 
 Após alguns segundos/minutos, o recurso será implantado.
 
-![img-017](docs/img/img-017.png.png)
+![img-017](docs/img/img-017.png)
 
 Clique em Ir para o recurso.
 
@@ -133,18 +133,18 @@ Clique em Ir para o recurso.
 
 No recurso criado, abra a aba Overview (Visão Geral).
 
-![img-018](docs/img/img-018.png.png)
+![img-018](docs/img/img-018.png)
 
 
 Clique em:
 
 ➡ Go to Azure AI Foundry Portal
 
-![img-019](docs/img/img-019.png.png)
+![img-019](docs/img/img-019.png)
 
 O portal abrirá em nova janela:
 
-![img-020](docs/img/img-020.png.png)
+![img-020](docs/img/img-020.png)
 
 ---
 
@@ -157,7 +157,7 @@ cada item da barra lateral chama um endpoint do back-end (API).
 
 🤖 10. Acessando Modelos (Models)
 
-![img-022](docs/img/img-022.png.png)
+![img-022](docs/img/img-022.png)
 
 Aqui você encontra:
 
@@ -169,7 +169,7 @@ Modelos de fala
 
 Modelos especializados
 
-![img-023](docs/img/img-023.png.png)
+![img-023](docs/img/img-023.png)
 
 ---
 
@@ -177,20 +177,20 @@ Modelos especializados
 
 Você pode criar múltiplos projetos dentro do mesmo workspace.
 
-![img-024](docs/img/img-024.png.png)
+![img-024](docs/img/img-024.png)
 
 ---
 
 📁 12. Acessando Seu Projeto
 
-![img-025](docs/img/img-025.png.png)
+![img-025](docs/img/img-025.png)
 
 
 Entre no projeto ou clique novamente em:
 
 ➡ Go to Azure AI Foundry Portal
 
-![img-026](docs/img/img-026.png.png)
+![img-026](docs/img/img-026.png)
 
 ---
 
@@ -198,7 +198,7 @@ Entre no projeto ou clique novamente em:
 
 Lembrando que o ambiente já vem com bibliotecas pré-configuradas:
 
-![img-027](docs/img/img-027.png.png)
+![img-027](docs/img/img-027.png)
 
 🎉 Conclusão
 
