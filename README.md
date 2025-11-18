@@ -1,6 +1,5 @@
-📘 Guia de Criação do Ambiente no Azure AI Foundry
-
-Seu copiloto para análise financeira e otimização de custos na nuvem Azure.
+# 📘 **Guia de Criação do Ambiente no Azure AI Foundry**
+### *Seu copiloto para análise financeira e otimização de custos na nuvem Azure.*
 
 Este guia apresenta, de forma clara e prática, a criação do MIZA – FinOps Cloud Copilot dentro do Azure AI Foundry. Ele ajuda a equipe a entender melhor como a nuvem funciona, como organizar recursos e como montar um agente que conversa, interpreta comandos e aciona automações de FinOps para simular alertas de custo.
 
