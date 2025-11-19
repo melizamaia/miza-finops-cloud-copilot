@@ -13,7 +13,58 @@ Ao final, você terá um agente completamente funcional, capaz de interpretar co
 
 ---
 
-📊 **Fluxo Arquitetural do MIZA – FinOps Cloud Copilot**
+---
+
+# 📑 **Sumário**
+
+1. [Guia de Criação do Ambiente no Azure AI Foundry](#guia-de-criação-do-ambiente-no-azure-ai-foundry)
+2. [Fluxo Arquitetural do MIZA – FinOps Cloud Copilot](#fluxo-arquitetural-do-miza--finops-cloud-copilot)  
+   - [Visão Geral do Fluxo](#visão-geral-do-fluxo)
+
+3. [1. Acessando o Portal Azure](#1-acessando-o-portal-azure)
+4. [2. Criando o Grupo de Recursos](#2-criando-o-grupo-de-recursos)
+5. [3. Conferindo o Grupo de Recursos](#3-conferindo-o-grupo-de-recursos)
+6. [4. Criando o Serviço do Azure AI Foundry](#4-criando-o-serviço-do-azure-ai-foundry)
+7. [5. Conferindo Providers](#5-conferindo-providers)
+8. [6. Configuração da Criação](#6-configuração-da-criação)
+9. [7. Deployment](#7-deployment)
+10. [8. Acessar o Azure AI Foundry Portal](#8-acessar-o-azure-ai-foundry-portal)
+11. [9. Entendendo o Azure AI Foundry](#9-entendendo-o-azure-ai-foundry)
+12. [10. Acessando Modelos (Models)](#10-acessando-modelos-models)
+13. [11. Gerenciamento de Projetos](#11-gerenciamento-de-projetos)
+14. [12. Acessando Seu Projeto](#12-acessando-seu-projeto)
+15. [13. Portal já inicializado com bibliotecas](#13-portal-já-inicializado-com-bibliotecas)
+
+---
+
+## 🎯 **Seção: Criação do Agente**
+
+16. [14. Criação do Agente no Azure AI Foundry](#14-criação-do-agente-no-azure-ai-foundry)
+17. [15. Criando Ações (Actions) para o Agente](#15-criando-ações-actions-para-o-agente)
+
+---
+
+## 🧪 **Testes**
+
+18. [16. Testando o Agente no Playground](#16-testando-o-agente-no-playground)
+19. [17. Prompt de Teste](#17-prompt-de-teste)
+
+---
+
+## 🧰 **Tecnologias**
+
+20. [18. Tecnologias Utilizadas](#18-tecnologias-utilizadas)
+
+---
+
+## 📚 **Referências**
+
+21. [19. Referências da Documentação Oficial do Azure](#19-referências-da-documentação-oficial-do-azure)
+
+---
+
+
+# 📊 **Fluxo Arquitetural do MIZA – FinOps Cloud Copilot**
 
 Esta seção descreve, de forma visual e simplificada, como funciona o fluxo completo do MIZA dentro do Azure AI Foundry, desde o momento em que o usuário envia um comando até a execução da Action no Logic App, responsável por registrar ou simular um alerta financeiro.
 
@@ -36,7 +87,7 @@ Exemplo:
 
 ---
 
-🧭 1. Acessando o Portal Azure
+## 🧭 1. Acessando o Portal Azure
 
 Acesse:
 
@@ -48,7 +99,7 @@ No menu inicial, selecione Recursos.
 
 ---
 
-🗂 2. Criando o Grupo de Recursos
+## 🗂 2. Criando o Grupo de Recursos
 
 Abra o menu sanduíche (≡) e procure Resource Groups.
 
@@ -73,7 +124,7 @@ Adicione tags para organização e governança.
 
 ---
 
-📦 3. Conferindo o Grupo de Recursos
+## 📦 3. Conferindo o Grupo de Recursos
 
 Entre no grupo criado:
 
@@ -86,7 +137,7 @@ Verifique se tudo foi criado corretamente:
 
 ---
 
-🛒 4. Criando o Serviço do Azure AI Foundry
+## 🛒 4. Criando o Serviço do Azure AI Foundry
 
 No grupo de recursos, clique em Create (criar) e depois em Marketplace.
 
@@ -100,7 +151,7 @@ No campo de busca, digite:
 
 ---
 
-🔍 5. Conferindo Providers
+## 🔍 5. Conferindo Providers
 
 No Marketplace, verifique se todos os providers são Microsoft.
 
@@ -115,7 +166,7 @@ Seu crédito da trilha é aplicado nesse provedor.
 
 ---
 
-⚙ 6. Configuração da Criação
+## ⚙ 6. Configuração da Criação
 
 Tipo de Plano: Criar um recurso da Fábrica de IA no Azure
 
@@ -148,7 +199,7 @@ Importante para controle e governança da assinatura.
 
 ---
 
-🚀 7. Deployment
+## 🚀 7. Deployment
 
 Após alguns segundos/minutos, o recurso será implantado.
 
@@ -158,7 +209,7 @@ Clique em Ir para o recurso.
 
 ---
 
-📡 8. Acessar o Azure AI Foundry Portal
+## 📡 8. Acessar o Azure AI Foundry Portal
 
 No recurso criado, abra a aba Overview (Visão Geral).
 
@@ -176,14 +227,14 @@ O portal abrirá em nova janela:
 
 ---
 
-🧱 9. Entendendo o Azure AI Foundry
+## 🧱 9. Entendendo o Azure AI Foundry
 
 O portal funciona como um frontend administrativo:
 cada item da barra lateral chama um endpoint do back-end (API).
 
 ---
 
-🤖 10. Acessando Modelos (Models)
+## 🤖 10. Acessando Modelos (Models)
 
 ![img-022](docs/img/img-022.png)
 
@@ -198,7 +249,7 @@ Aqui você encontra:
 
 ---
 
-🧩 11. Gerenciamento de Projetos
+## 🧩 11. Gerenciamento de Projetos
 
 Você pode criar múltiplos projetos dentro do mesmo workspace.
 
@@ -206,7 +257,7 @@ Você pode criar múltiplos projetos dentro do mesmo workspace.
 
 ---
 
-📁 12. Acessando Seu Projeto
+## 📁 12. Acessando Seu Projeto
 
 ![img-025](docs/img/img-025.png)
 
@@ -219,7 +270,7 @@ Entre no projeto ou clique novamente em:
 
 ---
 
-📚 13. Portal já inicializado com bibliotecas
+## 📚 13. Portal já inicializado com bibliotecas
 
 Lembrando que o ambiente já vem com bibliotecas pré-configuradas:
 
@@ -227,7 +278,7 @@ Lembrando que o ambiente já vem com bibliotecas pré-configuradas:
 
 ---
 
-📘 14. Criação do Agente no Azure AI Foundry
+## 📘 14. Criação do Agente no Azure AI Foundry
 
 Para criar um novo agente, clique em **Create Agent** (+ novo agente):
 
@@ -282,7 +333,7 @@ Se o usuário fizer perguntas gerais sobre finanças, responda brevemente e, qua
 
 ---
 
-⚙️ 15. Criando Ações (Actions) para o Agente
+## ⚙️ 15. Criando Ações (Actions) para o Agente
 
 As ações permitem que o agente execute tarefas externas — como registrar alertas financeiros via Logic App.
 
@@ -348,7 +399,7 @@ A ação deve aparecer na barra lateral direita como ativa.
 
 ---
 
-🧪 16. Testando o Agente no Playground
+## 🧪 16. Testando o Agente no Playground
 
 Abra o botão Playground no canto superior direito.
 
@@ -358,7 +409,7 @@ Agora podemos testar o comportamento real do agente.
 
 ---
 
-⚗️ 17. Prompt de Teste
+## ⚗️ 17. Prompt de Teste
 
 🟪 **Teste — Alerta percentual**
 
@@ -389,7 +440,7 @@ Exemplo:
 
 ---
 
-🧰 18. Tecnologias Utilizadas
+## 🧰 18. Tecnologias Utilizadas
 
 O projeto MIZA – FinOps Cloud Copilot utiliza uma combinação de serviços e ferramentas da plataforma Azure para criar um agente inteligente com capacidade de automação via Logic Apps.
 
@@ -462,7 +513,7 @@ Ambientes pré-carregados para agentes
 
 ---
 
-📖 19. Referências da Documentação Oficial do Azure
+## 📖 19. Referências da Documentação Oficial do Azure
 
 Essas referências foram utilizadas para guiar a criação, definição de ações e entendimento da arquitetura do Azure AI Foundry e Logic Apps.
 
