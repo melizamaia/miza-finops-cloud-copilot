@@ -3,6 +3,37 @@
 
 Este guia apresenta, de forma clara e prática, a criação do MIZA – FinOps Cloud Copilot dentro do Azure AI Foundry. Ele ajuda a equipe a entender melhor como a nuvem funciona, como organizar recursos e como montar um agente que conversa, interpreta comandos e aciona automações de FinOps para simular alertas de custo.
 
+O objetivo é proporcionar uma visão completa do ambiente, permitindo que equipes técnicas e não técnicas entendam:
+
+- como estruturar recursos na nuvem,
+- como configurar agentes inteligentes com Actions integradas,
+- como conectar automações de FinOps para análise, simulação e geração de alertas de custo.
+
+Ao final, você terá um agente completamente funcional, capaz de interpretar comandos em linguagem natural, acionar Logic Apps e apoiar decisões de otimização de custos de forma segura, rastreável e eficiente.
+
+---
+
+📊 **Fluxo Arquitetural do MIZA – FinOps Cloud Copilot**
+
+Esta seção descreve, de forma visual e simplificada, como funciona o fluxo completo do MIZA dentro do Azure AI Foundry, desde o momento em que o usuário envia um comando até a execução da Action no Logic App, responsável por registrar ou simular um alerta financeiro.
+
+O objetivo é mostrar como os componentes se comunicam e como o agente processa, valida e aciona automações de FinOps — oferecendo transparência, organização e entendimento imediato do ecossistema.
+
+---
+
+🔁 *Visão Geral do Fluxo*
+
+1. Usuário envia um comando em linguagem natural no Azure AI Foundry solicitando um alerta financeiro.
+2. O agente MIZA interpreta a intenção, extrai os dados relevantes (condição/destinatário/severidade) e estrutura o entendimento do pedido.
+3. MIZA confirma a ação com o usuário, garantindo clareza antes de executar o alerta.
+4. Após a confirmação, o agente monta o JSON do alerta, contendo todas as informações necessárias para o processamento.
+5. A Action envia a requisição HTTP POST para o Logic App, transmitindo o JSON estruturado.
+6. O Logic App processa a solicitação (registro ou simulação) e retorna um status, que o agente utiliza para responder ao usuário com a confirmação final.
+
+Exemplo:
+![img-fluxo-miza](docs/img/fluxo-miza.drawio.png)  
+[Usuário] → [Agente] → [Confirmação] → [Action] → [Logic App] → [Envio/Registro]
+
 ---
 
 🧭 1. Acessando o Portal Azure
