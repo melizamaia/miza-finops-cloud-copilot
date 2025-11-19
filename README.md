@@ -13,6 +13,17 @@ Ao final, você terá um agente completamente funcional, capaz de interpretar co
 
 ---
 
+> 💡 **Nota para os colegas**
+>
+> Para facilitar o aprendizado de todos que estão estudando o funcionamento do **AI Poetry (Azure AI Foundry Agents)**, organizei este guia separando duas etapas importantes:
+>
+> **1. Configuração do Agente** – onde definimos o comportamento, instruções internas, regras, lógica e propósito do agente.  
+> **2. Criação do Agente** – onde aplicamos essas configurações na prática, criando o agente no Foundry, adicionando Actions, integrando com Logic Apps e testando no Playground.
+>
+> Essa separação ajuda a entender primeiro a *parte conceitual* e depois a *parte técnica*, tornando o processo mais leve, visual e fácil de acompanhar mesmo para quem nunca trabalhou com agentes no Azure antes.
+>
+> O objetivo é apoiar todos os colegas para que consigam aprender, replicar e experimentar com mais fluidez dentro do AI Poetry.
+
 ---
 
 # 📑 **Sumário**
